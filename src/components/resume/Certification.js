@@ -6,6 +6,7 @@ import {
   azureAI,
   snowflakeDL,
   snowflakeDE,
+  HackerRankLogo,
 } from "../../assets/index";
 import ProjectsCard from "../projects/ProjectsCard";
 import { BsGithub } from "react-icons/bs";
@@ -23,7 +24,7 @@ const Certification = () => {
       <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-4 gap-2 xl:gap-6">
         <ProjectsCard
           title="SQL (Advanced) badge by HackerRank"
-          src={snowflakeDE}
+          src={HackerRankLogo}
           icon={<FaLink />}
           link="https://www.hackerrank.com/certificates/41d05efd6cdf?social=linkedin"
         />

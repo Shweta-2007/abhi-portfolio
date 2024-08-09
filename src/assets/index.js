@@ -13,6 +13,7 @@ import azureData from "./images/certifications/azureData.png";
 import snowflakeDE from "./images/certifications/snowflakeDE.png";
 import snowflakeDL from "./images/certifications/snowflakeDL.png";
 import contact from "./images/contact/contact.avif";
+import HackerRankLogo from "./images/certifications/HackerRankLogo.png";
 
 export {
   // logo,
@@ -29,4 +30,5 @@ export {
   snowflakeDE,
   snowflakeDL,
   contact,
+  HackerRankLogo,
 };
