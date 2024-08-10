@@ -1,13 +1,6 @@
 import React from "react";
 import Title from "../layouts/Title";
-import {
-  azureBasic,
-  azureData,
-  azureAI,
-  snowflakeDL,
-  snowflakeDE,
-  HackerRankLogo,
-} from "../../assets/index";
+import { HackerRankLogo } from "../../assets/index";
 import ProjectsCard from "../projects/ProjectsCard";
 import { BsGithub } from "react-icons/bs";
 import { FaLink } from "react-icons/fa";

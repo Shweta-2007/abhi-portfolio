@@ -7,7 +7,7 @@ import projectFour from "./images/projects/projectFour.jpeg";
 import projectFive from "./images/projects/projectFive.png";
 import projectSix from "./images/projects/projectSix.png";
 // import projectThree from "./images/projects/projectThree.png";
-import azureBasic from "./images/certifications/azureBasic.png";
+// import azureBasic from "./images/certifications/azureBasic.png";
 import azureAI from "./images/certifications/azureAI.png";
 import azureData from "./images/certifications/azureData.png";
 import snowflakeDE from "./images/certifications/snowflakeDE.png";
@@ -24,7 +24,7 @@ export {
   projectFour,
   projectFive,
   projectSix,
-  azureBasic,
+  // azureBasic,
   azureAI,
   azureData,
   snowflakeDE,
