@@ -63,12 +63,17 @@ const LeftBanner = () => {
             <a
               href="https://www.linkedin.com/in/abhishek-k-sinha/"
               target="_blank"
+              rel="noreferrer"
             >
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
             </a>
-            <a href="https://github.com/Abhisheksinha1830/" target="_blank">
+            <a
+              href="https://github.com/Abhisheksinha1830/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="bannerIcon">
                 <FaGithub />
               </span>
@@ -76,6 +81,7 @@ const LeftBanner = () => {
             <a
               href="https://www.instagram.com/abhisinha_19?igsh=MWo4a2JrMmxud2czNw%3D%3D&utm_source=qr"
               target="_blank"
+              rel="noreferrer"
             >
               <span className="bannerIcon">
                 <FaInstagram />
