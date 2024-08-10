@@ -9,12 +9,7 @@ import {
   FaSnowflake,
   FaAws,
 } from "react-icons/fa";
-import {
-  SiTailwindcss,
-  SiFigma,
-  SiNextdotjs,
-  SiApacheairflow,
-} from "react-icons/si";
+import { SiApacheairflow } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
