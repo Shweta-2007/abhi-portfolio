@@ -3,11 +3,6 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Title from "../layouts/Title";
 import ContactLeft from "./ContactLeft";
-import {
-  YOUR_SERVICE_ID,
-  YOUR_TEMPLATE_ID,
-  YOUR_PUBLIC_KEY,
-} from "../../email_config";
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -48,10 +43,10 @@ const Contact = () => {
       e.preventDefault();
       emailjs
         .sendForm(
-          YOUR_SERVICE_ID,
-          YOUR_TEMPLATE_ID,
+          process.env.YOUR_SERVICE_ID,
+          process.env.YOUR_TEMPLATE_ID,
           form.current,
-          YOUR_PUBLIC_KEY
+          process.env.YOUR_PUBLIC_KEY
         )
         .then(
           (result) => {
